@@ -1,12 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Mi proyecto 1 - Git</title>
-    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <meta charset="utf-8">
+    <title>Blog Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    <h1>Bienvenido a mi proyecto 1</h1>
-    <p>Este es un proyecto para aprender Git</p>
-    <button>Haz clic aquí</button>
+
+    <header class="page-header">
+        <h1>Expedición</h1>
+    </header>
+
+    <div class="container">
+        <main>
+            <h2 class="visuallyhidden">Articles</h2>
+
+            <article>
+                <header>
+                    <h3>Escalando...</h3>
+                    <time datetime="2023-05-15T08:00">Mayo 15</time>
+                </header>
+
+                <img src="img/pico_orizaba1.jpg" alt="Equipo escalando la montaña">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, laborum dolorem, dolor error nihil vitae similique necessitatibus omnis iure quasi vel iste repellendus alias! Asperiores voluptatem, maiores quibusdam eaque consequatur.</p>
+
+                <a class="read-more" href="#">Leer más</a>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Vista de pico</h3>
+                    <time datetime="2023-05-09T10:35">Mayo 09</time>
+                </header>
+
+                <img src="img/pico_de_orizaba_1.jpg" alt="Pico de Orizaba, México">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, laborum dolorem, dolor error nihil vitae similique necessitatibus omnis iure quasi vel iste repellendus alias! Asperiores voluptatem, maiores quibusdam eaque consequatur.</p>
+
+                <a class="read-more" href="#">Leer más</a>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Algo para recordar</h3>
+                    <time datetime="2023-05-06T22:50">Mayo 06</time>
+                </header>
+
+                <img src="img/paisaje_de_nieve.jpg" alt="Un paisaje cubierto de nieve">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, laborum dolorem, dolor error nihil vitae similique necessitatibus omnis iure quasi vel iste repellendus alias! Asperiores voluptatem, maiores quibusdam eaque consequatur.</p>
+
+                <a class="read-more" href="#">Leer más</a>
+            </article>
+
+            <article>
+                <header>
+                    <h3>Pueblo en el valle</h3>
+                    <time datetime="2023-05-06T22:49">Mayo 06</time>
+                </header>
+
+                <img src="img/pueblo_en_valle.jpg" alt="Un pintoresco pueblo en el valle">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, laborum dolorem, dolor error nihil vitae similique necessitatibus omnis iure quasi vel iste repellendus alias! Asperiores voluptatem, maiores quibusdam eaque consequatur.</p>
+
+                <a class="read-more" href="#">Leer más</a>
+            </article>
+        </main>
+
+        <aside>
+            <img src="img/profilepic.jpg" alt="Mi imagen de perfíl">
+
+            <div class="sidebar-text">
+                <h2>Sobre mí</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ducimus delectus esse repellendus. Harum esse laudantium itaque, aut cum molestias magni voluptatum veritatis alias. Veniam, impedit fuga ab saepe repudiandae.</p>
+
+                <section>
+                    <h3 class="visuallyhidden">Social Links</h3>
+                    <a class="social-link" href="https://twitter.com/ComunicacionUV">
+                        <img src="img/social-twitter.png" alt="Twitter">
+                    </a>
+                    <a class="social-link" href="https://www.instagram.com/deporteuv/">
+                        <img src="img/social-instagram.png" alt="Instagram">
+                    </a>
+                    <a class="social-link" href="https://es.wikipedia.org/wiki/Google%2B">
+                        <img src="img/social-google.png" alt="Google Plus">
+                    </a>
+                </section>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        Práctica de control de versiones - Git
+    </footer>
+
+    <script src="js/app.js"></script>
 </body>
 </html>
