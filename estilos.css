@@ -1,0 +1,16 @@
+/* Se aplica un color de fondo a la página */
+body {
+    background-color: lightblue;
+}
+
+/* Se modifica el color de los títulos h1*/
+h1 {
+    color: red;
+}
+
+/* Estilos para los botones */
+button {
+    color:yellow;
+    font-weight: bold;
+    background-color: black;
+}
