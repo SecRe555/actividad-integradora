@@ -1,3 +1,9 @@
 project.docx
 .DS_Store
 .github/**
+.editorconfig
+.eslintrc.json
+.gitattributes
+.htmlintrc
+.styleintrc
+CODEOWNERS

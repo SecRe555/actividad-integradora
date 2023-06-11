@@ -4,8 +4,10 @@ Este repo contiene el códifogo fuente de la práctica de control de versión co
 
 ## Tabla de contenido
 
-* [Instructiones](#instructiones)
-* [Creadores](#creadores)
+- [Control de versión con Git](#control-de-versión-con-git)
+  - [Tabla de contenido](#tabla-de-contenido)
+  - [Instructiones](#instructiones)
+  - [Creadores](#creadores)
 
 ## Instructiones
 
@@ -20,4 +22,3 @@ Con la ayuda de:
 
 * PMM
 * JAVC
-
