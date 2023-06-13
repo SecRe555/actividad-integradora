@@ -35,16 +35,20 @@ public class DiferenciaNumeros {
         String resultado = "";
         if (num1 < num2) {
             for (int i = ++num1; i < num2; i++) {
-                resultado += i;
-                if (i < num2 - 1) {
-                    resultado += " - ";
+                if (i % 2 != 0) {
+                    resultado += i;
+                    if (i < num2 - 1) {
+                        resultado += " - ";
+                    }
                 }
             }
         } else {
             for (int i = --num1; i > num2; i--) {
-                resultado += i;
-                if (i > num2 + 1) {
-                    resultado += " - ";
+                if (i % 2 != 0) {
+                    resultado += i;
+                    if (i > num2 + 1) {
+                        resultado += " - ";
+                    }
                 }
             }
         }
